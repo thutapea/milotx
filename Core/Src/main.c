@@ -136,11 +136,31 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  uint32_t last_beat = HAL_GetTick();
   while (1)
   {
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+    /* Heartbeat: proves the MCU and USART3 are alive even without the Si5351. */
+    if ((HAL_GetTick() - last_beat) >= 1000U)
+    {
+      char line[80];
+      uint8_t status;
+
+      last_beat += 1000U;
+      if (si5351_read_status(&status) == HAL_OK)
+      {
+        snprintf(line, sizeof(line), "alive %lus: Si5351 status reg 0 = 0x%02X\r\n",
+                 (unsigned long)(last_beat / 1000U), status);
+      }
+      else
+      {
+        snprintf(line, sizeof(line), "alive %lus: Si5351 not responding on I2C\r\n",
+                 (unsigned long)(last_beat / 1000U));
+      }
+      uart_print(line);
+    }
   }
   /* USER CODE END 3 */
 }
@@ -201,7 +221,21 @@ void SystemClock_Config(void)
 void Error_Handler(void)
 {
   /* USER CODE BEGIN Error_Handler_Debug */
-  /* User can add his own implementation to report the HAL error return state */
+  /* Fall back to the 16 MHz HSI (e.g. HSE crystal failed to start) and keep
+   * reporting on USART3. The guard stops recursion if USART3 init itself fails. */
+  static volatile uint8_t in_error = 0U;
+  if (in_error == 0U)
+  {
+    in_error = 1U;
+    (void)HAL_RCC_DeInit();
+    MX_USART3_UART_Init();
+    HAL_HalfDuplex_EnableTransmitter(&huart3);
+    while (1)
+    {
+      uart_print("milotx: FATAL Error_Handler (HSE clock failed?), running on HSI\r\n");
+      HAL_Delay(1000U);
+    }
+  }
   __disable_irq();
   while (1)
   {
