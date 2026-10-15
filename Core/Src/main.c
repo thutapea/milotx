@@ -37,6 +37,29 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+/* 1 = drive BRIDGE_ENABLE (PA2) high after the Si5351 is running, which gates
+ * the LMG2100 HI/LI inputs on. 0 = bridge held off (R13 also pulls it low). */
+#ifndef BRIDGE_ENABLE
+#define BRIDGE_ENABLE          1
+#endif
+
+#define BRIDGE_ENABLE_GPIO_Port GPIOA
+#define BRIDGE_ENABLE_Pin       GPIO_PIN_2
+
+/* Bridge switching frequency. U2 (74LVC1G74) divides Si5351 CLK0 by 2 to make
+ * the complementary TX_A/TX_B, so CLK0 runs at twice this. The output tank
+ * and the RC dead time (~13 ns) are sized for 2 MHz. */
+
+ /*This is the frequency present at the coil. set in increments of hz*/
+#ifndef TX_FREQ_HZ
+#define TX_FREQ_HZ             2003000UL
+#endif
+
+#define SI5351_CLK0_HZ         (2UL * (TX_FREQ_HZ))
+
+#if (SI5351_CLK0_HZ < SI5351_FREQ_MIN) || (SI5351_CLK0_HZ > SI5351_FREQ_MAX)
+#error "TX_FREQ_HZ out of range: CLK0 = 2 * TX_FREQ_HZ must be 2.5 kHz..112.5 MHz"
+#endif
 
 /* USER CODE END PD */
 
@@ -55,6 +78,7 @@
 void SystemClock_Config(void);
 /* USER CODE BEGIN PFP */
 static void uart_print(const char *msg);
+static void bridge_enable(bool enable);
 
 /* USER CODE END PFP */
 
@@ -63,6 +87,12 @@ static void uart_print(const char *msg);
 static void uart_print(const char *msg)
 {
   HAL_UART_Transmit(&huart3, (const uint8_t *)msg, (uint16_t)strlen(msg), 100U);
+}
+
+static void bridge_enable(bool enable)
+{
+  HAL_GPIO_WritePin(BRIDGE_ENABLE_GPIO_Port, BRIDGE_ENABLE_Pin,
+                    enable ? GPIO_PIN_SET : GPIO_PIN_RESET);
 }
 
 /* USER CODE END 0 */
@@ -99,16 +129,32 @@ int main(void)
   MX_I2C1_Init();
   MX_USART3_UART_Init();
   /* USER CODE BEGIN 2 */
+  /* PA2 = BRIDGE_ENABLE, not in the .ioc: configure it here, driven low. */
+  {
+    GPIO_InitTypeDef GPIO_InitStruct = {0};
+
+    bridge_enable(false);
+    GPIO_InitStruct.Pin = BRIDGE_ENABLE_Pin;
+    GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+    HAL_GPIO_Init(BRIDGE_ENABLE_GPIO_Port, &GPIO_InitStruct);
+  }
+
   /* USART3 is single-wire half-duplex: put the line in transmit direction. */
   HAL_HalfDuplex_EnableTransmitter(&huart3);
-  uart_print("\r\nmilotx: configuring Si5351 CLK0 = 4 MHz over I2C1\r\n");
+  char line[160];
+  snprintf(line, sizeof(line),
+           "\r\nmilotx: TX = %lu Hz, configuring Si5351 CLK0 = %lu Hz over I2C1\r\n",
+           (unsigned long)TX_FREQ_HZ, (unsigned long)SI5351_CLK0_HZ);
+  uart_print(line);
 
   const char *si5351_err = NULL;
   if (si5351_init(&hi2c1) != HAL_OK)
   {
     si5351_err = "no response from Si5351 at 0x60 (check power, SDA/SCL, pull-ups)";
   }
-  else if (si5351_set_freq(SI5351_CLK0, SI5351_PLLA, 4000000UL, SI5351_DRIVE_8MA) != HAL_OK)
+  else if (si5351_set_freq(SI5351_CLK0, SI5351_PLLA, SI5351_CLK0_HZ, SI5351_DRIVE_8MA) != HAL_OK)
   {
     si5351_err = "PLLA did not lock (check 25 MHz TCXO on CLKIN)";
   }
@@ -120,16 +166,28 @@ int main(void)
   if (si5351_err == NULL)
   {
     si5351_oeb(true);  /* PA0 low -> outputs on */
-    uart_print("Si5351 configuration success: CLK0 = 4 MHz\r\n");
+    snprintf(line, sizeof(line), "Si5351 configuration success: CLK0 = %lu Hz\r\n",
+             (unsigned long)SI5351_CLK0_HZ);
+    uart_print(line);
   }
   else
   {
-    char line[160];
     uint8_t status = 0xFFU;
     (void)si5351_read_status(&status);
     snprintf(line, sizeof(line), "Si5351 configuration FAILED: %s (status reg 0 = 0x%02X)\r\n",
              si5351_err, status);
     uart_print(line);
+  }
+
+  /* Only gate the bridge on once the TX drive clock is actually running. */
+  if ((BRIDGE_ENABLE != 0) && (si5351_err == NULL))
+  {
+    bridge_enable(true);
+    uart_print("BRIDGE_ENABLE (PA2) = 1: LMG2100 inputs ON\r\n");
+  }
+  else
+  {
+    uart_print("BRIDGE_ENABLE (PA2) = 0: LMG2100 inputs OFF\r\n");
   }
 
   /* USER CODE END 2 */
@@ -224,6 +282,7 @@ void Error_Handler(void)
   /* Fall back to the 16 MHz HSI (e.g. HSE crystal failed to start) and keep
    * reporting on USART3. The guard stops recursion if USART3 init itself fails. */
   static volatile uint8_t in_error = 0U;
+  bridge_enable(false);
   if (in_error == 0U)
   {
     in_error = 1U;
