@@ -1181,7 +1181,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "PA_BUS programmable supply (replaces PS2 CC connector U4)\nTPS54560B buck, +12V in, 5A, fsw ~400 kHz (RT = R304).\nPA_BUS = 0.8V*(1 + R301/R302 + R301/R303) - V_DAC*R301/R303  ~=  10.07V - 2.74*V_DAC\n  PA5 = DAC2 (PA_VSET), buffer ON: 0.2V -> ~9.5V ... 3.1V -> ~1.6V.  Higher DAC code = LOWER voltage.\n  PA5 floating (reset) -> ~7.9V, so PA6 (PA_EN, R306 pull-down) keeps the converter OFF until firmware\n  has set the DAC; then drive PA_EN high.\nPA7 (PA_VSENSE, ADC12_IN7) = PA_BUS * 27k/127k for readback.\nCompensation R305/C308/C309 sized for ~20 kHz crossover (current mode, FB AC gain 0.079); verify on bench.\nParts to confirm/source (no LCSC numbers yet): U301, D301, L301, 1210 caps.\nInput path: F2 is a 0.5A PTC and Q2 is AO3401A (SOT-23) - both must be upsized for 5A on PA_BUS."
+	(text "PA_BUS programmable supply (replaces PS2 CC connector U4)\nTPS54560B buck, +12V in, 5A, fsw ~400 kHz (RT = R304).\nPA_BUS = 0.8V*(1 + R301/R302 + R301/R303) - V_DAC*R301/R303  ~=  10.07V - 2.74*V_DAC\n  PA5 = DAC2 (PA_VSET), buffer ON: 0.2V -> ~9.5V ... 3.1V -> ~1.6V.  Higher DAC code = LOWER voltage.\n  PA5 floating (reset) -> ~7.9V, so PA6 (PA_EN, R306 pull-down) keeps the converter OFF until firmware\n  has set the DAC; then drive PA_EN high.\nPA7 (PA_VSENSE, ADC12_IN7) = PA_BUS * 27k/127k for readback.\nCompensation R305/C308/C309 sized for ~20 kHz crossover (current mode, FB AC gain 0.079); verify on bench.\nLCSC numbers in the LCSC field (sourced with JLCImport). L301 = SHOU HAN CYA1265-6.8UH (15A).\nInput path sized for 5A: F2 = 6A-hold 2920 PTC (BSMD2920-600-16V), Q2 = AO4407A (SO-8, 9.5mOhm)."
 		(exclude_from_sim no)
 		(at 25.4 20.32 0)
 		(effects
@@ -1209,7 +1209,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS54560BDDA"
+		(property "Value" "TPS54560BDDAR"
 			(at 63.5 74.93 0)
 			(effects
 				(font
@@ -1238,6 +1238,39 @@
 		(property "Description" "5A, Step Down DC-DC Converter, 4.5-60V Input Voltage, Texas R-PDSO-G8"
 			(at 63.5 60.96 0)
 			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1850354"
+			(at 63.5 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 63.5 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "TPS54560BDDAR"
+			(at 63.5 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1663,7 +1696,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 25V"
+		(property "Value" "100nF 50V X7R"
 			(at 127 62.23 0)
 			(effects
 				(font
@@ -1693,6 +1726,39 @@
 		(property "Description" "Unpolarized capacitor"
 			(at 124.46 60.96 0)
 			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 124.46 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 124.46 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
+			(at 124.46 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1774,7 +1840,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B560C (60V 5A)"
+		(property "Value" "B560C-13-F"
 			(at 177.8 57.15 0)
 			(effects
 				(font
@@ -1801,9 +1867,42 @@
 				)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "60V 5A Schottky, SMC (DO-214AB)"
 			(at 175.26 55.88 0)
 			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C85100"
+			(at 175.26 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 175.26 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "B560C-13-F"
+			(at 175.26 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1940,7 +2039,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8uH Isat>=8A"
+		(property "Value" "6.8uH 15A (CYA1265)"
 			(at 231.14 62.23 0)
 			(effects
 				(font
@@ -1949,7 +2048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Bourns_SRP1245A"
+		(property "Footprint" "JLCImport:CYA1265-6_8UH"
 			(at 228.6 60.96 0)
 			(hide yes)
 			(effects
@@ -1967,9 +2066,42 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "6.8uH +-20% 15A molded power inductor, 13.8x12.8mm"
 			(at 228.6 60.96 0)
 			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19268667"
+			(at 228.6 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SHOU HAN"
+			(at 228.6 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CYA1265-6.8UH"
+			(at 228.6 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2062,7 +2194,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF 25V X7R"
+		(property "Value" "10uF 50V X7R"
 			(at 53.34 100.33 0)
 			(effects
 				(font
@@ -2092,6 +2224,39 @@
 		(property "Description" "Unpolarized capacitor"
 			(at 50.8 99.06 0)
 			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2918502"
+			(at 50.8 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samwha Capacitor"
+			(at 50.8 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CS3225X7R106K500NRL"
+			(at 50.8 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2283,7 +2448,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF 25V X7R"
+		(property "Value" "10uF 50V X7R"
 			(at 101.6 100.33 0)
 			(effects
 				(font
@@ -2313,6 +2478,39 @@
 		(property "Description" "Unpolarized capacitor"
 			(at 99.06 99.06 0)
 			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2918502"
+			(at 99.06 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samwha Capacitor"
+			(at 99.06 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CS3225X7R106K500NRL"
+			(at 99.06 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2504,7 +2702,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 25V"
+		(property "Value" "100nF 50V X7R"
 			(at 149.86 100.33 0)
 			(effects
 				(font
@@ -2534,6 +2732,39 @@
 		(property "Description" "Unpolarized capacitor"
 			(at 147.32 99.06 0)
 			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 147.32 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 147.32 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
+			(at 147.32 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2761,6 +2992,39 @@
 				)
 			)
 		)
+		(property "LCSC" "C2918511"
+			(at 195.58 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samwha Capacitor"
+			(at 195.58 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CS3225X7R226K250NRL"
+			(at 195.58 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "626e76ac-1d08-44ec-8965-c79344420073")
 		)
@@ -2932,6 +3196,39 @@
 		(property "Description" "Unpolarized capacitor"
 			(at 241.3 99.06 0)
 			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2918511"
+			(at 241.3 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samwha Capacitor"
+			(at 241.3 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CS3225X7R226K250NRL"
+			(at 241.3 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3115,6 +3412,39 @@
 				)
 			)
 		)
+		(property "LCSC" "C2918511"
+			(at 289.56 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samwha Capacitor"
+			(at 289.56 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CS3225X7R226K250NRL"
+			(at 289.56 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6f3a8b66-a9c1-4c0a-acf3-d75311c36214")
 		)
@@ -3292,6 +3622,39 @@
 				)
 			)
 		)
+		(property "LCSC" "C25803"
+			(at 50.8 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 50.8 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF1003T5E"
+			(at 50.8 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ef89643e-f26a-4a7a-8cee-58801ac40027")
 		)
@@ -3408,6 +3771,39 @@
 		(property "Description" "Resistor"
 			(at 99.06 127 0)
 			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22860"
+			(at 99.06 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 99.06 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF1132T5E"
+			(at 99.06 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3580,6 +3976,39 @@
 				)
 			)
 		)
+		(property "LCSC" "C23029"
+			(at 147.32 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 147.32 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF3652T5E"
+			(at 147.32 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dddd050a-49cd-47c4-9207-2458f1fd252b")
 		)
@@ -3696,6 +4125,39 @@
 		(property "Description" "Resistor"
 			(at 195.58 127 0)
 			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23351"
+			(at 195.58 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 195.58 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF2433T5E"
+			(at 195.58 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3868,6 +4330,39 @@
 				)
 			)
 		)
+		(property "LCSC" "C22857"
+			(at 241.3 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 241.3 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF1072T5E"
+			(at 241.3 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0a97126b-e11e-445c-a6e3-69cb558e16d3")
 		)
@@ -3973,6 +4468,39 @@
 		(property "Description" "Unpolarized capacitor"
 			(at 289.56 127 0)
 			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C415537"
+			(at 289.56 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 289.56 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "GRM1885C1H392JA01D"
+			(at 289.56 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4145,6 +4673,39 @@
 				)
 			)
 		)
+		(property "LCSC" "C28262"
+			(at 337.82 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 337.82 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CL10C680JB8NNNC"
+			(at 337.82 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "91e3e1be-578e-4209-ab1c-313ea422aedb")
 		)
@@ -4275,7 +4836,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k 1%"
 			(at 53.34 158.75 0)
 			(effects
 				(font
@@ -4305,6 +4866,39 @@
 		(property "Description" "Resistor"
 			(at 50.8 157.48 0)
 			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25803"
+			(at 50.8 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 50.8 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF1003T5E"
+			(at 50.8 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4488,6 +5082,39 @@
 				)
 			)
 		)
+		(property "LCSC" "C25803"
+			(at 99.06 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 99.06 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF1003T5E"
+			(at 99.06 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "064696b8-0952-40dc-9b48-e79183efe9cb")
 		)
@@ -4615,6 +5242,39 @@
 		(property "Description" "Resistor"
 			(at 147.32 157.48 0)
 			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22967"
+			(at 147.32 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 147.32 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF2702T5E"
+			(at 147.32 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4762,7 +5422,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 50V X7R"
 			(at 198.12 158.75 0)
 			(effects
 				(font
@@ -4792,6 +5452,39 @@
 		(property "Description" "Unpolarized capacitor"
 			(at 195.58 157.48 0)
 			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 195.58 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 195.58 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
+			(at 195.58 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
