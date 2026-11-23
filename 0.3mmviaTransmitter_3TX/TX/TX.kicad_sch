@@ -16654,12 +16654,6 @@
 		(uuid "8978d27e-c2d0-4620-b187-71c5dcd02287")
 	)
 	(junction
-		(at 30.48 205.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8a233f81-f9bf-4070-95bd-49c672e22d43")
-	)
-	(junction
 		(at 226.06 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -17343,17 +17337,6 @@
 			(type default)
 		)
 		(uuid "1f8e8932-8777-4cb4-8717-ceb5681ec584")
-	)
-	(wire
-		(pts
-			(xy 20.32 213.36)
-			(xy 20.32 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "215320a8-a614-40e3-be0c-357f62fb3fc2")
 	)
 	(wire
 		(pts
@@ -19084,17 +19067,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 205.74)
-			(xy 22.86 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5c59f3f-3417-4c20-82b0-23d56ef52bc8")
-	)
-	(wire
-		(pts
 			(xy 365.76 172.72)
 			(xy 365.76 171.45)
 		)
@@ -19480,17 +19452,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 213.36)
-			(xy 20.32 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3d4a894-c9f4-4436-a612-f753debe479d")
-	)
-	(wire
-		(pts
 			(xy 124.46 182.88)
 			(xy 124.46 180.34)
 		)
@@ -19620,17 +19581,6 @@
 			(type default)
 		)
 		(uuid "dae8353c-4242-45eb-8821-69921aa7a65b")
-	)
-	(wire
-		(pts
-			(xy 22.86 205.74)
-			(xy 22.86 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db1a000b-2efa-40f7-ba9e-f3e73566c5ac")
 	)
 	(wire
 		(pts
@@ -20688,7 +20638,7 @@
 			)
 		)
 	)
-	(global_label "PS2 CC"
+	(global_label "PA_BUS"
 		(shape input)
 		(at 46.99 190.5 180)
 		(fields_autoplaced yes)
@@ -20808,7 +20758,7 @@
 			)
 		)
 	)
-	(global_label "PS2 CC"
+	(global_label "PA_BUS"
 		(shape input)
 		(at 34.29 205.74 0)
 		(fields_autoplaced yes)
@@ -21288,7 +21238,7 @@
 			)
 		)
 	)
-	(global_label "PS2 CC"
+	(global_label "PA_BUS"
 		(shape input)
 		(at 156.21 191.77 180)
 		(fields_autoplaced yes)
@@ -22522,127 +22472,6 @@
 			(project "TX"
 				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
 					(reference "#PWR094")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:430450412")
-		(at 20.32 224.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e7b7e44-2736-43c8-8e5e-539f94132da3")
-		(property "Reference" "U4"
-			(at 26.67 223.5199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "430450412"
-			(at 26.67 226.0599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical"
-			(at 20.32 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/product/jpg_265037_0.html"
-			(at 20.32 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-40℃~+105℃ 2 2 2x2P 3mm 3mm 4P 600V 8.5A 8.77mm 9.65mm 9.91mm Black Brass K Pin、With post Micro-Fit(MX 3.0) Through Hole Tin UL94V-0 插件,P=3mm Wire To Board Connector ROHS"
-			(at 20.32 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C277721"
-			(at 20.32 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "MOLEX"
-			(at 20.32 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "430450412"
-			(at 20.32 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "11367f8e-a7b3-4ec2-9feb-89d20cbb0238")
-		)
-		(pin "1"
-			(uuid "1e1c419d-10c9-44f6-b669-fa2f21e7d6f4")
-		)
-		(pin "3"
-			(uuid "2c9d6983-60bb-4a5d-91b2-eff99eb62278")
-		)
-		(pin "2"
-			(uuid "7e331e95-0247-4f69-896c-7ef8d519cb81")
-		)
-		(instances
-			(project "TX"
-				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -42877,84 +42706,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 22.86 234.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc95804e-ad2d-4946-b2f7-23dd4cfdd890")
-		(property "Reference" "#PWR097"
-			(at 22.86 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 22.86 240.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.86 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "96537b85-7107-4a54-bf95-f422e31935e5")
-		)
-		(instances
-			(project "TX"
-				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
-					(reference "#PWR097")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 30.48 213.36 0)
 		(unit 1)
 		(body_style 1)
@@ -43596,7 +43347,7 @@
 		)
 		(uuid "a998cc3e-375d-4133-95dd-eca2b38559c9")
 	)
-	(global_label "PS2 CC"
+	(global_label "PA_BUS"
 		(shape input)
 		(at 157.48 35.56 180)
 		(fields_autoplaced yes)
@@ -43745,7 +43496,7 @@
 		)
 		(uuid "1ed0c48c-5cfb-45ed-9999-65e4fccff51a")
 	)
-	(global_label "PS2 CC"
+	(global_label "PA_BUS"
 		(shape input)
 		(at 157.48 55.88 180)
 		(fields_autoplaced yes)
@@ -43851,6 +43602,164 @@
 			(justify left bottom)
 		)
 		(uuid "1caee544-9b3a-48e5-95b3-2bbeee428885")
+	)
+	(wire
+		(pts
+			(xy 394.97 69.85)
+			(xy 400.05 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "895525f6-2ade-4e91-bba6-6be43981aa19")
+	)
+	(global_label "PA_VSET"
+		(shape bidirectional)
+		(at 400.05 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "203d0dc7-2716-4d71-b506-691462cc8a2c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 410.05 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 394.97 72.39)
+			(xy 400.05 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e8917a9-295f-44c9-80a7-392e91fe83bd")
+	)
+	(global_label "PA_EN"
+		(shape bidirectional)
+		(at 400.05 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "35b70ac0-92e5-4a30-a100-54a48d7f1978")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 410.05 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 394.97 74.93)
+			(xy 400.05 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0f771cb-943a-4c07-8ec0-04ff3fec1313")
+	)
+	(global_label "PA_VSENSE"
+		(shape bidirectional)
+		(at 400.05 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "4e8f3a25-5e7a-4d39-aeb6-07c3c0370c23")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 410.05 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 27.94)
+		(size 17.78 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e027b95e-4602-4fcf-b334-d942fa71e20f")
+		(property "Sheetname" "PA_BUS supply"
+			(at 200.66 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PA_supply.kicad_sch"
+			(at 200.66 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TX"
+				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
+					(page "4")
+				)
+			)
+		)
+	)
+	(text "PA_BUS: programmable 1.6-9.5V / 5A buck from +12V\n(PA5 DAC sets, PA6 enables, PA7 reads back)"
+		(exclude_from_sim no)
+		(at 200.66 42.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4837b709-9ea1-4449-9cf7-ad2221756db4")
 	)
 	(sheet_instances
 		(path "/"
