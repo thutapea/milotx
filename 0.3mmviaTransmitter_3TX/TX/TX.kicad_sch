@@ -16396,34 +16396,16 @@
 		(uuid "ef89abe8-d8f1-4b1e-8771-4f4b247293af")
 	)
 	(junction
-		(at 130.81 215.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01aa8c89-e27f-4cbe-96c7-7c40dd407823")
-	)
-	(junction
 		(at 365.76 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02699467-2e76-4bcc-b344-da3b0156b061")
 	)
 	(junction
-		(at 166.37 246.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "036bcd14-2ee1-4b1b-8445-d37afbbcf62e")
-	)
-	(junction
 		(at 290.83 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "042d5007-b7f6-4ac0-b316-23e173b1c7f0")
-	)
-	(junction
-		(at 199.39 228.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04751362-985e-42ac-adda-67d1856ae533")
 	)
 	(junction
 		(at 104.14 177.8)
@@ -16456,24 +16438,6 @@
 		(uuid "11ef71fc-fbc7-4338-9bc7-2be7f16f5996")
 	)
 	(junction
-		(at 80.01 233.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "127a9836-e3b5-4593-aff1-7e5025c7a0d6")
-	)
-	(junction
-		(at 90.17 215.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12da382f-8e7e-429d-b4fb-1bf222ec9623")
-	)
-	(junction
-		(at 57.15 215.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "136c586c-cf13-4f43-b1ee-508e8b2a3fd9")
-	)
-	(junction
 		(at 382.27 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16486,22 +16450,10 @@
 		(uuid "201a527d-b669-4802-89bd-8a446bc99a14")
 	)
 	(junction
-		(at 130.81 233.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20a28b66-52ae-4762-9a8e-a93744697773")
-	)
-	(junction
 		(at 124.46 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20bc6293-1145-44b2-90fb-52a2c90ab543")
-	)
-	(junction
-		(at 231.14 228.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2303bdd0-0381-47e8-a5ed-ef1140a8cc8a")
 	)
 	(junction
 		(at 391.16 31.75)
@@ -16526,12 +16478,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "281dd5a4-9c03-4d90-9d1d-382edd768f84")
-	)
-	(junction
-		(at 231.14 246.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2aae4493-758e-4669-94a2-f09afe528a6d")
 	)
 	(junction
 		(at 97.79 86.36)
@@ -16570,12 +16516,6 @@
 		(uuid "37438d33-9fc5-475d-93cb-0952d6608299")
 	)
 	(junction
-		(at 68.58 215.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ddbb3e9-5a91-4656-ad81-d0856c292a21")
-	)
-	(junction
 		(at 335.28 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16600,24 +16540,6 @@
 		(uuid "424854a3-1d12-4baf-afce-1c9c1183dae8")
 	)
 	(junction
-		(at 121.92 215.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42d2e38d-90dd-4c53-8e6a-8b1098d35e83")
-	)
-	(junction
-		(at 220.98 246.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "469a6914-74f6-4335-9687-8f651d1d498a")
-	)
-	(junction
-		(at 68.58 233.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47dbc6e0-c4b8-46c4-8564-dd1463a81b16")
-	)
-	(junction
 		(at 102.87 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16634,18 +16556,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ee9f58b-f766-4ddf-b436-eb47167b75af")
-	)
-	(junction
-		(at 177.8 246.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4fa62fe3-1462-4e68-be13-83cb906c1864")
-	)
-	(junction
-		(at 177.8 228.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5073c652-0917-449e-bcd7-50e836ecf8d5")
 	)
 	(junction
 		(at 269.24 203.2)
@@ -16684,12 +16594,6 @@
 		(uuid "61057e60-9a54-4058-9a9e-67484d72f49c")
 	)
 	(junction
-		(at 189.23 228.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6353fc23-7b89-4d22-bff1-3ad05a29abeb")
-	)
-	(junction
 		(at 46.99 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16700,18 +16604,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6dca1663-d2c2-46b1-a642-b0ad533c93cd")
-	)
-	(junction
-		(at 121.92 233.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71a005c6-c419-4e26-b708-d16ba50417e4")
-	)
-	(junction
-		(at 189.23 246.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73b50146-b0c2-4d5a-af63-1f9347bee22e")
 	)
 	(junction
 		(at 293.37 203.2)
@@ -16736,24 +16628,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80ff5a6b-b04e-4724-a708-e8fbe5a59bcd")
-	)
-	(junction
-		(at 166.37 228.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8162ea9f-5c1c-4027-950c-fb84656f1107")
-	)
-	(junction
-		(at 101.6 233.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "820d3625-5400-4999-b679-4674399a00eb")
-	)
-	(junction
-		(at 210.82 228.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8317e6ad-42aa-4241-b227-5df48049a2c5")
 	)
 	(junction
 		(at 336.55 171.45)
@@ -16792,12 +16666,6 @@
 		(uuid "900a983e-fe90-4e89-9ac0-674d76718252")
 	)
 	(junction
-		(at 240.03 246.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94615752-b3f8-4633-9794-2a19a73e42f0")
-	)
-	(junction
 		(at 400.05 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16822,22 +16690,10 @@
 		(uuid "9b124d19-1481-4b2b-b362-bedf79216e93")
 	)
 	(junction
-		(at 210.82 246.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b8eeaf3-8d79-4f83-b7cf-02882f1d1208")
-	)
-	(junction
 		(at 337.82 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bcec57e-49d7-42fc-b3c2-a5c227726259")
-	)
-	(junction
-		(at 90.17 233.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c8f4143-ed01-4c46-84e8-f6d7a3de6b9b")
 	)
 	(junction
 		(at 87.63 81.28)
@@ -16846,22 +16702,10 @@
 		(uuid "9e97521b-e835-4507-ba7d-f2a7c9c6699f")
 	)
 	(junction
-		(at 111.76 233.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a04f08dd-e2b5-4b5f-aa99-2f77f85f3ae9")
-	)
-	(junction
 		(at 374.65 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2689929-f07e-46af-ba89-fb26243dfb36")
-	)
-	(junction
-		(at 80.01 215.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2ac8e16-584b-4419-976e-9b00cfa6204f")
 	)
 	(junction
 		(at 387.35 171.45)
@@ -16904,12 +16748,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2b0412b-1eca-40f2-8b25-a1356d6543f0")
-	)
-	(junction
-		(at 240.03 228.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b60d9af3-eab7-46eb-b779-8ec405fa62f1")
 	)
 	(junction
 		(at 298.45 60.96)
@@ -16960,12 +16798,6 @@
 		(uuid "cabc6aa9-2f0f-4792-81fe-3e3983eefc5a")
 	)
 	(junction
-		(at 111.76 215.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb517243-c369-47b1-b9fc-1ffb2bfdbeb5")
-	)
-	(junction
 		(at 386.08 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -17008,22 +16840,10 @@
 		(uuid "d94de4ad-e5a9-4197-9e64-0d3253b3ba98")
 	)
 	(junction
-		(at 199.39 246.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9c5ab67-b70d-40ae-98ca-6f26ab03522f")
-	)
-	(junction
 		(at 355.6 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dff617f5-1cbd-4d36-b2db-742d17de0260")
-	)
-	(junction
-		(at 57.15 233.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e199e174-2e7d-4230-b9b2-65e79048b792")
 	)
 	(junction
 		(at 233.68 184.15)
@@ -17054,18 +16874,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f56a1d3a-b471-4670-9bd8-e67da8069bd4")
-	)
-	(junction
-		(at 220.98 228.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5967c5d-2f16-4146-918f-7b1c832b4a78")
-	)
-	(junction
-		(at 101.6 215.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fce3b303-d0d2-4b0f-9e76-da2268fef170")
 	)
 	(no_connect
 		(at 175.26 172.72)
@@ -17241,17 +17049,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 228.6)
-			(xy 189.23 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "061bd135-28aa-449d-9dcb-ee911897377e")
-	)
-	(wire
-		(pts
 			(xy 307.34 163.83)
 			(xy 307.34 165.1)
 		)
@@ -17307,17 +17104,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 215.9)
-			(xy 101.6 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a66c94a-5ce5-4b76-a46d-c2a1f1d0f71e")
-	)
-	(wire
-		(pts
 			(xy 144.78 93.98)
 			(xy 147.32 93.98)
 		)
@@ -17337,17 +17123,6 @@
 			(type default)
 		)
 		(uuid "0ea2b7e7-2c60-4afe-bb0d-dccf5eb5e25f")
-	)
-	(wire
-		(pts
-			(xy 132.08 233.68)
-			(xy 130.81 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f3df16f-88f3-4246-818f-b7fe3e68c399")
 	)
 	(wire
 		(pts
@@ -17403,17 +17178,6 @@
 			(type default)
 		)
 		(uuid "163e81dc-fc60-4a98-aefd-18f4e933b75f")
-	)
-	(wire
-		(pts
-			(xy 199.39 242.57)
-			(xy 199.39 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17e13839-8508-4d45-af5e-a2bcb85ee2b1")
 	)
 	(wire
 		(pts
@@ -17535,17 +17299,6 @@
 			(type default)
 		)
 		(uuid "1d36f1fa-f4f9-460d-8bab-c2a27357af4b")
-	)
-	(wire
-		(pts
-			(xy 121.92 233.68)
-			(xy 130.81 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dd8e66e-6261-4376-bdda-2b2347147c2c")
 	)
 	(wire
 		(pts
@@ -17692,28 +17445,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 228.6)
-			(xy 240.03 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "245c8167-c3f7-4bb4-8158-edcd5f31a0b7")
-	)
-	(wire
-		(pts
-			(xy 220.98 242.57)
-			(xy 220.98 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "247477f3-bb8b-45d6-85fc-5647c6878d81")
-	)
-	(wire
-		(pts
 			(xy 364.49 41.91)
 			(xy 364.49 44.45)
 		)
@@ -17733,17 +17464,6 @@
 			(type default)
 		)
 		(uuid "24c90722-fd30-4c39-8fef-f7cd8d9b96bd")
-	)
-	(wire
-		(pts
-			(xy 199.39 228.6)
-			(xy 210.82 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25519f1d-3cbe-4661-ad5e-33ab99be8b92")
 	)
 	(wire
 		(pts
@@ -17777,17 +17497,6 @@
 			(type default)
 		)
 		(uuid "26d17aed-e904-4bbb-95ee-d7274df69de6")
-	)
-	(wire
-		(pts
-			(xy 121.92 215.9)
-			(xy 130.81 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26e4d626-482a-4f3e-8b99-2b441b545771")
 	)
 	(wire
 		(pts
@@ -17868,17 +17577,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 246.38)
-			(xy 199.39 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b2dc079-fc80-462c-9e22-92abcf1457c6")
-	)
-	(wire
-		(pts
 			(xy 377.19 146.05)
 			(xy 377.19 148.59)
 		)
@@ -17887,17 +17585,6 @@
 			(type default)
 		)
 		(uuid "2c5b9be1-65ba-4fda-939a-8706d5f6b294")
-	)
-	(wire
-		(pts
-			(xy 80.01 233.68)
-			(xy 68.58 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c603c1a-d71b-41a0-850d-6b76d067d8dc")
 	)
 	(wire
 		(pts
@@ -17978,17 +17665,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 215.9)
-			(xy 101.6 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "341b0641-3813-42e7-a70c-9c68f295a051")
-	)
-	(wire
-		(pts
 			(xy 293.37 215.9)
 			(xy 293.37 218.44)
 		)
@@ -17997,17 +17673,6 @@
 			(type default)
 		)
 		(uuid "3492a9ba-fd2b-4490-a0ed-a149018d447a")
-	)
-	(wire
-		(pts
-			(xy 220.98 228.6)
-			(xy 231.14 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35b47573-4d5e-4d30-bf16-cc77f6b189d4")
 	)
 	(wire
 		(pts
@@ -18063,17 +17728,6 @@
 			(type default)
 		)
 		(uuid "37c8c16d-7e85-4576-8fe9-be36a8fb3cd6")
-	)
-	(wire
-		(pts
-			(xy 46.99 223.52)
-			(xy 46.99 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "385696fe-451c-4c73-9a3f-4f9f48c0ee27")
 	)
 	(wire
 		(pts
@@ -18143,17 +17797,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 233.68)
-			(xy 80.01 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f80feec-a564-4e97-928b-4f42fdf83960")
-	)
-	(wire
-		(pts
 			(xy 341.63 59.69)
 			(xy 339.09 59.69)
 		)
@@ -18187,17 +17830,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 246.38)
-			(xy 240.03 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42546675-1996-4f3d-8f26-ed19167730ed")
-	)
-	(wire
-		(pts
 			(xy 372.11 31.75)
 			(xy 372.11 49.53)
 		)
@@ -18228,17 +17860,6 @@
 			(type default)
 		)
 		(uuid "4350bd1b-11a2-4b47-ad1a-9a6c7f486322")
-	)
-	(wire
-		(pts
-			(xy 111.76 233.68)
-			(xy 121.92 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "437beef8-225b-4bc9-917a-6948ecc4d28d")
 	)
 	(wire
 		(pts
@@ -18286,17 +17907,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 236.22)
-			(xy 156.21 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "461eff14-d463-4020-919f-f83679538d05")
-	)
-	(wire
-		(pts
 			(xy 156.21 191.77)
 			(xy 156.21 195.58)
 		)
@@ -18341,28 +17951,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 228.6)
-			(xy 231.14 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "481c93ee-4007-4655-8588-b80063e2b804")
-	)
-	(wire
-		(pts
-			(xy 57.15 229.87)
-			(xy 57.15 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48537052-7a44-4bcf-bbbc-2c643bfd4dbd")
-	)
-	(wire
-		(pts
 			(xy 339.09 64.77)
 			(xy 341.63 64.77)
 		)
@@ -18393,17 +17981,6 @@
 			(type default)
 		)
 		(uuid "4a01a4dd-85df-40b9-b666-6774e84c6f19")
-	)
-	(wire
-		(pts
-			(xy 80.01 215.9)
-			(xy 90.17 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4aba8a65-e95e-41d8-b9ed-832a3d5fdf3d")
 	)
 	(wire
 		(pts
@@ -18448,28 +18025,6 @@
 			(type default)
 		)
 		(uuid "4e276acc-5bfb-4963-bf78-77718e1c28d1")
-	)
-	(wire
-		(pts
-			(xy 177.8 228.6)
-			(xy 177.8 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ed9d54d-5f8f-4a26-aa00-17ef0864f15b")
-	)
-	(wire
-		(pts
-			(xy 166.37 228.6)
-			(xy 177.8 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f6bea46-fce0-4fc8-bd1d-513cffe5c0fd")
 	)
 	(wire
 		(pts
@@ -18583,17 +18138,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 242.57)
-			(xy 177.8 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58decd82-3f25-4b4d-ad65-4f674a80ff9e")
-	)
-	(wire
-		(pts
 			(xy 102.87 76.2)
 			(xy 105.41 76.2)
 		)
@@ -18660,17 +18204,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 228.6)
-			(xy 130.81 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "603ae6c7-4089-4944-a6b7-a9a0b6da5e75")
-	)
-	(wire
-		(pts
 			(xy 365.76 181.61)
 			(xy 365.76 182.88)
 		)
@@ -18690,17 +18223,6 @@
 			(type default)
 		)
 		(uuid "64335c5f-ca35-4afe-8dbb-dc89d99604c0")
-	)
-	(wire
-		(pts
-			(xy 68.58 215.9)
-			(xy 80.01 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "645f83d5-9105-4b4d-bb95-bae7f75f73ae")
 	)
 	(wire
 		(pts
@@ -18778,17 +18300,6 @@
 			(type default)
 		)
 		(uuid "6abee166-4e81-4a06-baa9-dff1ff56c64c")
-	)
-	(wire
-		(pts
-			(xy 121.92 215.9)
-			(xy 121.92 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b6182ab-e9af-49e0-8480-6bb5bc79e259")
 	)
 	(wire
 		(pts
@@ -18891,17 +18402,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 228.6)
-			(xy 166.37 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70d3d0b0-c756-4135-9a7e-569633d621b0")
-	)
-	(wire
-		(pts
 			(xy 346.71 31.75)
 			(xy 355.6 31.75)
 		)
@@ -18913,17 +18413,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 246.38)
-			(xy 231.14 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "723aa869-b4b7-4dbe-862c-95b04434d147")
-	)
-	(wire
-		(pts
 			(xy 129.54 172.72)
 			(xy 137.16 172.72)
 		)
@@ -18932,17 +18421,6 @@
 			(type default)
 		)
 		(uuid "72620e86-4cb2-4f30-8a5a-0796280b4a4d")
-	)
-	(wire
-		(pts
-			(xy 210.82 228.6)
-			(xy 220.98 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75b9b6e5-14c6-4700-ac74-894ceec723c7")
 	)
 	(wire
 		(pts
@@ -18968,28 +18446,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 215.9)
-			(xy 111.76 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "767427ae-3f0c-4bdc-b4ad-df63a612f727")
-	)
-	(wire
-		(pts
-			(xy 90.17 229.87)
-			(xy 90.17 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76d0aedc-50c6-46f9-96aa-2958ea92b63e")
-	)
-	(wire
-		(pts
 			(xy 308.61 57.15)
 			(xy 312.42 57.15)
 		)
@@ -19009,17 +18465,6 @@
 			(type default)
 		)
 		(uuid "775eb2eb-e0ca-492b-bb40-dab9c176ea57")
-	)
-	(wire
-		(pts
-			(xy 231.14 242.57)
-			(xy 231.14 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "777c15f0-de68-43b8-ae55-1938c28c0ee8")
 	)
 	(wire
 		(pts
@@ -19045,17 +18490,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 229.87)
-			(xy 80.01 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78dc1fe6-ffcb-4e11-8d0a-160d45f0dbdc")
-	)
-	(wire
-		(pts
 			(xy 307.34 172.72)
 			(xy 307.34 175.26)
 		)
@@ -19067,28 +18501,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 215.9)
-			(xy 57.15 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a2054d0-971d-432b-bda1-e36dd482c12a")
-	)
-	(wire
-		(pts
-			(xy 231.14 228.6)
-			(xy 240.03 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7aa4e512-1fb1-4d33-8585-5ff0d92a6c31")
-	)
-	(wire
-		(pts
 			(xy 163.83 185.42)
 			(xy 163.83 195.58)
 		)
@@ -19097,28 +18509,6 @@
 			(type default)
 		)
 		(uuid "7b137177-287c-433d-88f0-c920bb447b2f")
-	)
-	(wire
-		(pts
-			(xy 166.37 246.38)
-			(xy 156.21 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b20eee6-979b-42d0-ba2d-0392efb29537")
-	)
-	(wire
-		(pts
-			(xy 57.15 215.9)
-			(xy 57.15 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b85d8e9-a0c9-4776-914f-94adb98b1182")
 	)
 	(wire
 		(pts
@@ -19196,17 +18586,6 @@
 			(type default)
 		)
 		(uuid "7e299e54-a212-4742-a0aa-34a95ffb9d13")
-	)
-	(wire
-		(pts
-			(xy 220.98 246.38)
-			(xy 210.82 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e59848f-50aa-49ff-b3a8-1c0bce44a342")
 	)
 	(wire
 		(pts
@@ -19342,28 +18721,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 246.38)
-			(xy 166.37 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88c3bb20-c837-465e-b37b-fbc7499c759c")
-	)
-	(wire
-		(pts
-			(xy 177.8 228.6)
-			(xy 189.23 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a0103a3-6377-45ee-b4cb-b711fb8f893e")
-	)
-	(wire
-		(pts
 			(xy 191.77 118.11)
 			(xy 194.31 118.11)
 		)
@@ -19394,17 +18751,6 @@
 			(type default)
 		)
 		(uuid "8b67d13c-049b-4128-b745-2597a9daae51")
-	)
-	(wire
-		(pts
-			(xy 68.58 233.68)
-			(xy 57.15 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c6b65b7-8f0d-4666-9553-b8e799d4f5b0")
 	)
 	(wire
 		(pts
@@ -19617,17 +18963,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 228.6)
-			(xy 241.3 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cd2acd3-ad1f-4340-be8c-3c5b4c328a34")
-	)
-	(wire
-		(pts
 			(xy 360.68 205.74)
 			(xy 360.68 209.55)
 		)
@@ -19636,28 +18971,6 @@
 			(type default)
 		)
 		(uuid "9de129c2-1f00-4e1e-bd75-2f45210a86ab")
-	)
-	(wire
-		(pts
-			(xy 240.03 241.3)
-			(xy 240.03 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9eb7d16b-62a3-4953-b0da-67f03f82c51e")
-	)
-	(wire
-		(pts
-			(xy 130.81 215.9)
-			(xy 130.81 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f54a7fe-f386-4bf1-a645-634eee6081b6")
 	)
 	(wire
 		(pts
@@ -19727,17 +19040,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 215.9)
-			(xy 68.58 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6f28dc4-7029-49f7-bed5-183d7c9807ba")
-	)
-	(wire
-		(pts
 			(xy 335.28 78.74)
 			(xy 335.28 80.01)
 		)
@@ -19760,39 +19062,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 215.9)
-			(xy 90.17 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab02bc0c-5789-403f-8cc2-c815ba0fae6b")
-	)
-	(wire
-		(pts
-			(xy 121.92 229.87)
-			(xy 121.92 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab97145c-04a9-4fe3-89da-67d479d0f282")
-	)
-	(wire
-		(pts
-			(xy 111.76 215.9)
-			(xy 121.92 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adf2d113-01ac-4ce4-9e93-2f620dfd2b4e")
-	)
-	(wire
-		(pts
 			(xy 97.79 172.72)
 			(xy 116.84 172.72)
 		)
@@ -19812,28 +19081,6 @@
 			(type default)
 		)
 		(uuid "afb1bb64-fc54-4efc-9742-0a131221aa77")
-	)
-	(wire
-		(pts
-			(xy 111.76 229.87)
-			(xy 111.76 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1dcf6e0-d0e1-42db-9f4b-dfef158d3e55")
-	)
-	(wire
-		(pts
-			(xy 68.58 229.87)
-			(xy 68.58 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b27b952e-b67b-48cf-9c7c-ea4e36d28d65")
 	)
 	(wire
 		(pts
@@ -19881,17 +19128,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 246.38)
-			(xy 240.03 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8331f0c-b2f8-4cd7-a1b2-494bc26197f6")
-	)
-	(wire
-		(pts
 			(xy 373.38 217.17)
 			(xy 373.38 219.71)
 		)
@@ -19911,17 +19147,6 @@
 			(type default)
 		)
 		(uuid "b8bc47a3-737f-4648-9ef0-0fa489a143af")
-	)
-	(wire
-		(pts
-			(xy 130.81 215.9)
-			(xy 132.08 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b91c93da-8668-42b4-95a5-43bc90df5d93")
 	)
 	(wire
 		(pts
@@ -19958,17 +19183,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 228.6)
-			(xy 210.82 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba95e6d1-93e6-4236-93d2-06bc7f2717c2")
-	)
-	(wire
-		(pts
 			(xy 104.14 177.8)
 			(xy 109.22 177.8)
 		)
@@ -19999,39 +19213,6 @@
 			(type default)
 		)
 		(uuid "bbb665bb-7ec4-415f-9ac0-a5bfb98755e8")
-	)
-	(wire
-		(pts
-			(xy 210.82 242.57)
-			(xy 210.82 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbfa879b-11e3-4d1c-99a1-437f56bf4a9d")
-	)
-	(wire
-		(pts
-			(xy 68.58 215.9)
-			(xy 68.58 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bca6639b-97e2-4b9b-a923-42e54e2c63e6")
-	)
-	(wire
-		(pts
-			(xy 189.23 246.38)
-			(xy 177.8 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd460508-9d4a-419b-8555-4147ac7dda2c")
 	)
 	(wire
 		(pts
@@ -20120,17 +19301,6 @@
 			(type default)
 		)
 		(uuid "c59c7775-947a-4705-be37-b15739e39404")
-	)
-	(wire
-		(pts
-			(xy 101.6 229.87)
-			(xy 101.6 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c638eeb3-a14b-431d-88f1-83a13907e32a")
 	)
 	(wire
 		(pts
@@ -20233,28 +19403,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 242.57)
-			(xy 166.37 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbd44f58-bee0-4f66-a278-f33287befca4")
-	)
-	(wire
-		(pts
-			(xy 111.76 215.9)
-			(xy 111.76 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbe050e3-3f0d-47dd-b863-3faacf0f0d06")
-	)
-	(wire
-		(pts
 			(xy 133.35 95.25)
 			(xy 133.35 93.98)
 		)
@@ -20263,17 +19411,6 @@
 			(type default)
 		)
 		(uuid "cc581214-bd32-4e61-acf4-d17b4caaf225")
-	)
-	(wire
-		(pts
-			(xy 111.76 233.68)
-			(xy 101.6 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccd72925-313c-4f41-b7db-6223e2fe8770")
 	)
 	(wire
 		(pts
@@ -20329,17 +19466,6 @@
 			(type default)
 		)
 		(uuid "d0ebde3b-e97a-4d71-9fec-d8316e4dca93")
-	)
-	(wire
-		(pts
-			(xy 189.23 242.57)
-			(xy 189.23 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d33d9c30-2e1a-4fd2-8761-9cb6201bbab0")
 	)
 	(wire
 		(pts
@@ -20409,17 +19535,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 215.9)
-			(xy 80.01 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d844650f-6990-47df-800c-3cbeea1993fa")
-	)
-	(wire
-		(pts
 			(xy 240.03 173.99)
 			(xy 240.03 175.26)
 		)
@@ -20453,17 +19568,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 228.6)
-			(xy 166.37 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9c93b88-48f4-4712-8548-dc3699525510")
-	)
-	(wire
-		(pts
 			(xy 144.78 95.25)
 			(xy 144.78 93.98)
 		)
@@ -20483,17 +19587,6 @@
 			(type default)
 		)
 		(uuid "d9f60137-08b7-4d08-a6a9-8b0110611413")
-	)
-	(wire
-		(pts
-			(xy 199.39 228.6)
-			(xy 199.39 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da641021-d260-460e-b6ac-44db618f2ae9")
 	)
 	(wire
 		(pts
@@ -20593,17 +19686,6 @@
 			(type default)
 		)
 		(uuid "de36304d-2c37-464c-83a2-02e3e01ce175")
-	)
-	(wire
-		(pts
-			(xy 101.6 233.68)
-			(xy 90.17 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ded4caa7-c7f9-4a3e-920c-648672ae1cff")
 	)
 	(wire
 		(pts
@@ -20904,17 +19986,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 246.38)
-			(xy 189.23 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5df743b-7e2f-4a43-9ad9-cc2c98dc8eb0")
-	)
-	(wire
-		(pts
 			(xy 400.05 41.91)
 			(xy 400.05 44.45)
 		)
@@ -20959,17 +20030,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 228.6)
-			(xy 220.98 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8ca209c-55a4-423c-8e51-cfa4b217adaa")
-	)
-	(wire
-		(pts
 			(xy 337.82 44.45)
 			(xy 346.71 44.45)
 		)
@@ -20989,28 +20049,6 @@
 			(type default)
 		)
 		(uuid "f8fd793a-cb61-4931-98ad-6cec2abb6656")
-	)
-	(wire
-		(pts
-			(xy 57.15 233.68)
-			(xy 46.99 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f954198c-cc74-4b0f-b7ea-b1be2d282d50")
-	)
-	(wire
-		(pts
-			(xy 189.23 228.6)
-			(xy 199.39 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9ff072c-b599-4384-acf0-4090af3b1d1f")
 	)
 	(wire
 		(pts
@@ -21794,7 +20832,7 @@
 			)
 		)
 	)
-	(global_label "TANK_B"
+	(global_label "SW_B"
 		(shape input)
 		(at 162.56 139.7 0)
 		(fields_autoplaced yes)
@@ -21842,7 +20880,7 @@
 			)
 		)
 	)
-	(global_label "TANK_A"
+	(global_label "SW_A"
 		(shape input)
 		(at 167.64 147.32 0)
 		(fields_autoplaced yes)
@@ -21986,7 +21024,7 @@
 			)
 		)
 	)
-	(global_label "TANK_B"
+	(global_label "SW_B"
 		(shape input)
 		(at 162.56 154.94 0)
 		(fields_autoplaced yes)
@@ -22082,30 +21120,6 @@
 			)
 		)
 	)
-	(global_label "TANK_A"
-		(shape input)
-		(at 132.08 215.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify left)
-		)
-		(uuid "7e68f7bd-7d90-411d-802f-de7adb071035")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.9291 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "DELAY_TX_A"
 		(shape input)
 		(at 168.91 119.38 0)
@@ -22191,30 +21205,6 @@
 		(uuid "8e6b050f-40a6-4e93-9c01-388d93644010")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 305.446 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "SW_B"
-		(shape input)
-		(at 241.3 246.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify left)
-		)
-		(uuid "8e91d5eb-3d54-4c75-ad67-6b78921dadd0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.242 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22418,30 +21408,6 @@
 			)
 		)
 	)
-	(global_label "TANK_B"
-		(shape input)
-		(at 241.3 228.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify left)
-		)
-		(uuid "b7f2d72e-1cd8-4467-ace7-33ab506d4d06")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.2398 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "HS_A_DT"
 		(shape input)
 		(at 43.18 134.62 180)
@@ -22599,30 +21565,6 @@
 		(uuid "f2ced1f4-1b57-4924-b55c-23389c93fe76")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 397.8839 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "SW_A"
-		(shape input)
-		(at 132.08 233.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify left)
-		)
-		(uuid "f44356c8-9d14-4c0f-8a2d-5cb215b92b7c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.9313 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23821,351 +22763,6 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:CC0805JRNPOBBN330")
-		(at 121.92 224.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12f5e4cc-3c91-4fe8-9b27-e39e001bb983")
-		(property "Reference" "C37"
-			(at 125.73 223.5199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CC0805JRNPOBBN330"
-			(at 125.73 226.0599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 121.92 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0805JRNPOBBN330_C113838.pdf"
-			(at 121.92 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "33pF 500V NP0 ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 121.92 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C113838"
-			(at 121.92 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 121.92 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "CC0805JRNPOBBN330"
-			(at 121.92 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e7e3da29-6aca-401e-8eef-1a0a346d3053")
-		)
-		(pin "2"
-			(uuid "c04b4ba1-588f-400b-9dd7-670cab1b3d88")
-		)
-		(instances
-			(project "TX"
-				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
-					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:FM42N331G501EFG")
-		(at 177.8 237.49 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13027510-7d3a-4ae8-9a41-0c466cb8723b")
-		(property "Reference" "C39"
-			(at 181.61 236.2199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "FM42N331G501EFG"
-			(at 181.61 238.7599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1808_4520Metric"
-			(at 177.8 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409271633_PSA-Prosperity-Dielectrics-FM42N331G501EFG_C22376361.pdf"
-			(at 177.8 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "330pF 500V C0G ±2% 1808 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 177.8 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C22376361"
-			(at 177.8 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "PSA(Prosperity Dielectrics)"
-			(at 177.8 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "FM42N331G501EFG"
-			(at 177.8 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7ba897fc-0cd1-4bc8-8a4d-538b34bc5e77")
-		)
-		(pin "2"
-			(uuid "ca4f26dd-eca4-456b-a503-647cf155a125")
-		)
-		(instances
-			(project "TX"
-				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
-					(reference "C39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:CC0805JRNPOBBN330")
-		(at 231.14 237.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "160b1a5e-4acd-42be-af17-c23d7ac2bfc6")
-		(property "Reference" "C45"
-			(at 234.95 236.2199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CC0805JRNPOBBN330"
-			(at 234.95 238.7599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 231.14 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0805JRNPOBBN330_C113838.pdf"
-			(at 231.14 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "33pF 500V NP0 ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 231.14 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C113838"
-			(at 231.14 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 231.14 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "CC0805JRNPOBBN330"
-			(at 231.14 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "848e27b9-f530-4838-a364-e4441819e7c0")
-		)
-		(pin "2"
-			(uuid "80d8bd1c-4709-4afc-a968-792fb1a3e255")
-		)
-		(instances
-			(project "TX"
-				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
-					(reference "C45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "JLCImport:CL10B104KB8NNNC")
 		(at 105.41 102.87 270)
 		(unit 1)
@@ -24971,121 +23568,6 @@
 			(project "TX"
 				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
 					(reference "U12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:FM42N331G501EFG")
-		(at 156.21 241.3 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f05fee5-c541-4686-9e83-c13f1294542d")
-		(property "Reference" "C35"
-			(at 160.02 240.0299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "FM42N331G501EFG"
-			(at 160.02 242.5699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1808_4520Metric"
-			(at 156.21 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409271633_PSA-Prosperity-Dielectrics-FM42N331G501EFG_C22376361.pdf"
-			(at 156.21 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "330pF 500V C0G ±2% 1808 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 156.21 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C22376361"
-			(at 156.21 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "PSA(Prosperity Dielectrics)"
-			(at 156.21 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "FM42N331G501EFG"
-			(at 156.21 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fbf01e03-6cf7-4fec-8dd1-d52c454a357c")
-		)
-		(pin "2"
-			(uuid "a2dda299-3be6-48b2-a14b-921fe72330d4")
-		)
-		(instances
-			(project "TX"
-				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
-					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -26253,121 +24735,6 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:FM42N331G501EFG")
-		(at 46.99 228.6 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ea4cab0-67c6-4f0c-a1cb-65934dab5280")
-		(property "Reference" "C25"
-			(at 50.8 227.3299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "FM42N331G501EFG"
-			(at 50.8 229.8699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1808_4520Metric"
-			(at 46.99 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409271633_PSA-Prosperity-Dielectrics-FM42N331G501EFG_C22376361.pdf"
-			(at 46.99 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "330pF 500V C0G ±2% 1808 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 46.99 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C22376361"
-			(at 46.99 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "PSA(Prosperity Dielectrics)"
-			(at 46.99 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "FM42N331G501EFG"
-			(at 46.99 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "35563e3d-8e67-4638-99f1-e75bc05d53a8")
-		)
-		(pin "2"
-			(uuid "410c8a32-0298-46e8-8f45-81955e8ac350")
-		)
-		(instances
-			(project "TX"
-				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF")
 		(at 355.6 38.1 0)
 		(unit 1)
@@ -26987,121 +25354,6 @@
 			(project "TX"
 				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:FM42N331G501EFG")
-		(at 90.17 224.79 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37e7e3e6-936d-431f-8cbb-407c621daf27")
-		(property "Reference" "C32"
-			(at 93.98 223.5199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "FM42N331G501EFG"
-			(at 93.98 226.0599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1808_4520Metric"
-			(at 90.17 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409271633_PSA-Prosperity-Dielectrics-FM42N331G501EFG_C22376361.pdf"
-			(at 90.17 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "330pF 500V C0G ±2% 1808 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 90.17 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C22376361"
-			(at 90.17 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "PSA(Prosperity Dielectrics)"
-			(at 90.17 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "FM42N331G501EFG"
-			(at 90.17 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0b7f6362-7406-4b9a-8ec9-2ecda69f4200")
-		)
-		(pin "2"
-			(uuid "1d37a14d-aad8-476a-9fa5-7680b76aa2e1")
-		)
-		(instances
-			(project "TX"
-				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
-					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -31805,88 +30057,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 240.03 237.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "638996f6-0a1c-4626-8b9d-4127a7bba691")
-		(property "Reference" "C46"
-			(at 243.84 236.2199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 243.84 238.7599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 240.9952 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 240.03 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "169e0177-5e51-4093-9b7e-2fb78e7cc59c")
-		)
-		(pin "2"
-			(uuid "89140a87-7be8-486d-9908-b60b49921fd8")
-		)
-		(instances
-			(project "TX"
-				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
-					(reference "C46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 118.11 66.04 180)
 		(unit 1)
@@ -32151,121 +30321,6 @@
 			(project "TX"
 				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
 					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:FM42N331G501EFG")
-		(at 166.37 237.49 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6567bc1d-895f-42f0-9cb1-24537550dc08")
-		(property "Reference" "C38"
-			(at 170.18 236.2199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "FM42N331G501EFG"
-			(at 170.18 238.7599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1808_4520Metric"
-			(at 166.37 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409271633_PSA-Prosperity-Dielectrics-FM42N331G501EFG_C22376361.pdf"
-			(at 166.37 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "330pF 500V C0G ±2% 1808 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 166.37 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C22376361"
-			(at 166.37 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "PSA(Prosperity Dielectrics)"
-			(at 166.37 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "FM42N331G501EFG"
-			(at 166.37 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "10c52578-8410-40c1-afb4-4030f9066512")
-		)
-		(pin "2"
-			(uuid "40da222c-a6a4-4315-9eb3-931098447d22")
-		)
-		(instances
-			(project "TX"
-				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
-					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -33660,88 +31715,6 @@
 			(project "TX"
 				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 130.81 224.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "769a8bfb-4301-4057-844e-e87616a8a2dc")
-		(property "Reference" "C36"
-			(at 134.62 223.5199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 134.62 226.0599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 131.7752 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 130.81 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1de91f92-c582-401b-b6ad-0090d9d155e8")
-		)
-		(pin "2"
-			(uuid "b68c12f8-fa73-4f2b-84ea-ff11d9a75e29")
-		)
-		(instances
-			(project "TX"
-				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
-					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -35313,122 +33286,6 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:FM42N331G501EFG")
-		(at 220.98 237.49 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94796e0e-e188-4167-ba7f-14948217ce3f")
-		(property "Reference" "C44"
-			(at 224.79 236.2199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "FM42N331G501EFG"
-			(at 224.79 238.7599 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1808_4520Metric"
-			(at 220.98 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409271633_PSA-Prosperity-Dielectrics-FM42N331G501EFG_C22376361.pdf"
-			(at 220.98 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "330pF 500V C0G ±2% 1808 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 220.98 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C22376361"
-			(at 220.98 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "PSA(Prosperity Dielectrics)"
-			(at 220.98 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "FM42N331G501EFG"
-			(at 220.98 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6d579b31-3342-4e15-81d2-aec79459ee6d")
-		)
-		(pin "2"
-			(uuid "6cd9eae9-2a75-427c-9e3b-aeaba042bb2f")
-		)
-		(instances
-			(project "TX"
-				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
-					(reference "C44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "JLCImport:SN74LVC1G74DCUR_C70285")
 		(at 185.42 92.71 0)
 		(unit 1)
@@ -36326,121 +34183,6 @@
 			(project "TX"
 				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
 					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:FM42N331G501EFG")
-		(at 57.15 224.79 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1099544-843b-4e52-a27d-38a0afb29b6c")
-		(property "Reference" "C28"
-			(at 60.96 223.5199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "FM42N331G501EFG"
-			(at 60.96 226.0599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1808_4520Metric"
-			(at 57.15 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409271633_PSA-Prosperity-Dielectrics-FM42N331G501EFG_C22376361.pdf"
-			(at 57.15 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "330pF 500V C0G ±2% 1808 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 57.15 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C22376361"
-			(at 57.15 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "PSA(Prosperity Dielectrics)"
-			(at 57.15 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "FM42N331G501EFG"
-			(at 57.15 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e224cc8b-c5e8-4876-aad6-28ed1400e2bb")
-		)
-		(pin "2"
-			(uuid "d51d06e1-92ec-48c2-9b6c-afb09f660255")
-		)
-		(instances
-			(project "TX"
-				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
-					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -37571,121 +35313,6 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:FM42N331G501EFG")
-		(at 199.39 237.49 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8a06957-e290-46e9-9b36-39700b4ce760")
-		(property "Reference" "C41"
-			(at 203.2 236.2199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "FM42N331G501EFG"
-			(at 203.2 238.7599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1808_4520Metric"
-			(at 199.39 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409271633_PSA-Prosperity-Dielectrics-FM42N331G501EFG_C22376361.pdf"
-			(at 199.39 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "330pF 500V C0G ±2% 1808 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 199.39 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C22376361"
-			(at 199.39 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "PSA(Prosperity Dielectrics)"
-			(at 199.39 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "FM42N331G501EFG"
-			(at 199.39 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "acb54379-0c83-4704-a828-3d308aa44c55")
-		)
-		(pin "2"
-			(uuid "8af42238-c559-47ba-8c35-632d2c0698af")
-		)
-		(instances
-			(project "TX"
-				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
-					(reference "C41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 278.13 115.57 0)
 		(unit 1)
@@ -38259,121 +35886,6 @@
 			(project "TX"
 				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
 					(reference "C71")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:FM42N331G501EFG")
-		(at 68.58 224.79 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab246f0a-4d21-49da-a870-6322de6e319b")
-		(property "Reference" "C30"
-			(at 72.39 223.5199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "FM42N331G501EFG"
-			(at 72.39 226.0599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1808_4520Metric"
-			(at 68.58 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409271633_PSA-Prosperity-Dielectrics-FM42N331G501EFG_C22376361.pdf"
-			(at 68.58 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "330pF 500V C0G ±2% 1808 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 68.58 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C22376361"
-			(at 68.58 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "PSA(Prosperity Dielectrics)"
-			(at 68.58 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "FM42N331G501EFG"
-			(at 68.58 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c81f3563-3c05-4325-aa32-8ddb55522b07")
-		)
-		(pin "2"
-			(uuid "5ed199fa-2b94-4412-8d18-b1c1588659f9")
-		)
-		(instances
-			(project "TX"
-				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
-					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -40803,121 +38315,6 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:FM42N331G501EFG")
-		(at 80.01 224.79 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c69233c6-b65b-45ad-8fbf-18a867784748")
-		(property "Reference" "C31"
-			(at 83.82 223.5199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "FM42N331G501EFG"
-			(at 83.82 226.0599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1808_4520Metric"
-			(at 80.01 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409271633_PSA-Prosperity-Dielectrics-FM42N331G501EFG_C22376361.pdf"
-			(at 80.01 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "330pF 500V C0G ±2% 1808 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 80.01 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C22376361"
-			(at 80.01 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "PSA(Prosperity Dielectrics)"
-			(at 80.01 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "FM42N331G501EFG"
-			(at 80.01 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a593f597-dd7b-4fc7-b2e7-95ef83536415")
-		)
-		(pin "2"
-			(uuid "29a53849-0751-4bd9-8bed-09133bd24f3c")
-		)
-		(instances
-			(project "TX"
-				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
-					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,2.2kΩ")
 		(at 307.34 181.61 0)
 		(unit 1)
@@ -41258,122 +38655,6 @@
 			(project "TX"
 				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:FM42N331G501EFG")
-		(at 101.6 224.79 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd6f2934-019e-40ef-855c-8a5b437a9b20")
-		(property "Reference" "C33"
-			(at 105.41 223.5199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "FM42N331G501EFG"
-			(at 105.41 226.0599 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1808_4520Metric"
-			(at 101.6 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409271633_PSA-Prosperity-Dielectrics-FM42N331G501EFG_C22376361.pdf"
-			(at 101.6 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "330pF 500V C0G ±2% 1808 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 101.6 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C22376361"
-			(at 101.6 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "PSA(Prosperity Dielectrics)"
-			(at 101.6 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "FM42N331G501EFG"
-			(at 101.6 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4acfc375-e08d-4ac1-a179-7d757bcb3b3c")
-		)
-		(pin "2"
-			(uuid "4d0764e6-4d0a-4aef-81d7-03edcfaf175d")
-		)
-		(instances
-			(project "TX"
-				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
-					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -42890,121 +40171,6 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:FM42N331G501EFG")
-		(at 189.23 237.49 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da01951c-074f-4ba0-a26b-289afc417f34")
-		(property "Reference" "C40"
-			(at 193.04 236.2199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "FM42N331G501EFG"
-			(at 193.04 238.7599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1808_4520Metric"
-			(at 189.23 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409271633_PSA-Prosperity-Dielectrics-FM42N331G501EFG_C22376361.pdf"
-			(at 189.23 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "330pF 500V C0G ±2% 1808 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 189.23 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C22376361"
-			(at 189.23 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "PSA(Prosperity Dielectrics)"
-			(at 189.23 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "FM42N331G501EFG"
-			(at 189.23 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "33ce9ce3-f777-40ae-b6e6-3325a8f992e8")
-		)
-		(pin "2"
-			(uuid "ddd40639-1a84-4978-9ebb-76907d49eb28")
-		)
-		(instances
-			(project "TX"
-				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
-					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "JLCImport:CL21B105KBFNNNE")
 		(at 240.03 179.07 90)
 		(unit 1)
@@ -43383,122 +40549,6 @@
 			(project "TX"
 				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:FM42N331G501EFG")
-		(at 111.76 224.79 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5224b40-deae-487b-8b79-9b064410a771")
-		(property "Reference" "C34"
-			(at 115.57 223.5199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "FM42N331G501EFG"
-			(at 115.57 226.0599 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1808_4520Metric"
-			(at 111.76 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409271633_PSA-Prosperity-Dielectrics-FM42N331G501EFG_C22376361.pdf"
-			(at 111.76 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "330pF 500V C0G ±2% 1808 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 111.76 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C22376361"
-			(at 111.76 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "PSA(Prosperity Dielectrics)"
-			(at 111.76 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "FM42N331G501EFG"
-			(at 111.76 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "11cffe4a-d630-4b18-9d69-08f64f99566d")
-		)
-		(pin "2"
-			(uuid "cd0abd9a-aa14-42ca-a460-53e1cfb158c9")
-		)
-		(instances
-			(project "TX"
-				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
-					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -45200,122 +42250,6 @@
 			(project "TX"
 				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
 					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:FM42N331G501EFG")
-		(at 210.82 237.49 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f81727ab-8670-410e-9680-632309b277ed")
-		(property "Reference" "C43"
-			(at 214.63 236.2199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "FM42N331G501EFG"
-			(at 214.63 238.7599 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1808_4520Metric"
-			(at 210.82 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409271633_PSA-Prosperity-Dielectrics-FM42N331G501EFG_C22376361.pdf"
-			(at 210.82 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "330pF 500V C0G ±2% 1808 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 210.82 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C22376361"
-			(at 210.82 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "PSA(Prosperity Dielectrics)"
-			(at 210.82 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "FM42N331G501EFG"
-			(at 210.82 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b221b3c8-64cf-4b06-8dda-a56f8e225298")
-		)
-		(pin "2"
-			(uuid "e12f49dd-ee13-4534-bf93-f768bf99d293")
-		)
-		(instances
-			(project "TX"
-				(path "/ddf8b084-9e9e-4e54-ab6a-61562fd911a6"
-					(reference "C43")
 					(unit 1)
 				)
 			)
